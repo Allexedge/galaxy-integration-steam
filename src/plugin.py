@@ -35,6 +35,7 @@ from galaxy.api.consts import Platform
 from backend_interface import BackendInterface
 from backend_public_profiles import PublicProfilesBackend
 from backend_steam_network import SteamNetworkBackend
+from backend_steam_webapi import SteamWebApiBackend
 from backend_configuration import BackendMode, BackendConfiguration, USER_CONFIG_LOCATION
 from http_client import HttpClient
 from client import (
@@ -64,6 +65,7 @@ AUTH_SETUP_ON_VERSION__CACHE_KEY = "auth_setup_on_version"
 BACKEND_MAP = {
     BackendMode.PublicProfiles: PublicProfilesBackend,
     BackendMode.SteamNetwork: SteamNetworkBackend,
+    BackendMode.SteamWebApi: SteamWebApiBackend,
 }
 
 

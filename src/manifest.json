@@ -1,0 +1,12 @@
+{
+    "name": "Galaxy Steam plugin",
+    "platform": "steam",
+    "guid": "ca27391f-2675-49b1-92c0-896d43afa4f8",
+    "version": "1.0.4",
+    "description": "Galaxy Steam plugin",
+    "author": "Friends of Galaxy",
+    "email": "friendsofgalaxy@gmail.com",
+    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-steam",
+    "update_url": "https://raw.githubusercontent.com/FriendsOfGalaxy/galaxy-integration-steam/master/current_version.json",
+    "script": "plugin.py"
+}
